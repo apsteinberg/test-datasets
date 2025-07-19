@@ -1,2 +1,2 @@
 sample,bam,bai,rcFile
-K562,https://github.com/apsteinberg/test-datasets/raw/refs/heads/proteomegenerator3/bam/K562_directcDNA_replicate1.bam,https://github.com/apsteinberg/test-datasets/raw/refs/heads/proteomegenerator3/bam/K562_directcDNA_replicate1.bam.bai,
+K562,https://raw.githubusercontent.com/apsteinberg/test-datasets/proteomegenerator3/bam/K562_directcDNA_replicate1.bam,https://raw.githubusercontent.com/apsteinberg/test-datasets/proteomegenerator3/bam/K562_directcDNA_replicate1.bam.bai,
