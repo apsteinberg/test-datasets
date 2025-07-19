@@ -9,4 +9,4 @@ These data provide a small test dataset to test single sample and multisample mo
 ### Files
 
 * `samplesheet_single_sample.csv` - Sample information sheet required for the pipeline
-* `bam/` - Bam files obtained from [Pre-basecalled and nondemultiplexed data](#pre-basecalled-and-nondemultiplexed-data)
+* `bam/` - Bam files obtained from [Pre-basecalled and nondemultiplexed data of the nf-core/nanoseq test dataset](https://github.com/apsteinberg/test-datasets/tree/nanoseq?tab=readme-ov-file#pre-basecalled-and-nondemultiplexed-data)
