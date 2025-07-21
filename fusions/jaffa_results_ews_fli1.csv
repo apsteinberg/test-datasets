@@ -1,0 +1,2 @@
+sample,fusion genes,chrom1,base1,strand1,chrom2,base2,strand2,gap (kb),spanning pairs,spanning reads,inframe,aligns,rearrangement,contig,contig break,classification,known
+A673-T_R1_001.fastq,EWSR1:FLI1,chr22,29287134,+,chr11,128805366,+,Inf,0,1125,TRUE,TRUE,TRUE,002302ee-aa86-4c24-b7bb-fda6eda9cd09,1241,HighConfidence,Yes

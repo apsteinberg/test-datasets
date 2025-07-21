@@ -10,3 +10,4 @@ These data provide a small test dataset to test single sample and multisample mo
 
 * `samplesheet_single_sample.csv` - Sample information sheet required for the pipeline
 * `bam/` - Bam files obtained from [Pre-basecalled and nondemultiplexed data of the nf-core/nanoseq test dataset](https://github.com/apsteinberg/test-datasets/tree/nanoseq?tab=readme-ov-file#pre-basecalled-and-nondemultiplexed-data) and from the [bambu](https://www.bioconductor.org/packages/release/bioc/html/bambu.html) package (which is originally from the SG-NEx dataset).
+* `fusions/` - outputs from [JAFFAL](https://github.com/Oshlack/JAFFA/wiki/OutputDescription) for predicting ORFs from fusions. 
