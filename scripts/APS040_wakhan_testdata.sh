@@ -28,5 +28,5 @@ samtools index -b ${norm_sub_bam} -o ${norm_sub_bam}.bai
 # Extract just chr1 from reference
 hg38=/data1/shahs3/reference/ref-sarcoma/GRCh38/v45/GRCh38.primary_assembly.genome.fa
 sub_hg38=$HOME/test-datasets/reference/GRCh38_${chr}_${coords}.fa
-samtools faidx ${hg38} ${region} > ${sub_hg38}
+samtools faidx ${hg38} ${region} | sed 's/>chr9:28000000-29000000/>chr9/' > ${sub_hg38}
 samtools faidx ${sub_hg38} --fai-idx ${sub_hg38}.fai # Create index
