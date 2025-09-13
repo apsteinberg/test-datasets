@@ -11,8 +11,8 @@
 
 # make subsampled tumor bam
 colo_bam=/data1/shahs3/users/preskaa/test_datasets/colo829_2024.03/basecalls/colo829/sup/PAU59949.d052sup4305mCG_5hmCGvHg38.bam
-chr=chr9
-coords=28000000-29000000
+chr=chr22
+coords=33000000-34000000
 region=${chr}:${coords}
 colo_sub_bam=$HOME/test-datasets/bams/PAU59949.d052sup4305mCG_5hmCGvHg38.${chr}.bam
 # subsample
@@ -27,6 +27,6 @@ samtools index -b ${norm_sub_bam} -o ${norm_sub_bam}.bai
 # subsample reference genome and index to match
 # Extract just chr1 from reference
 hg38=/data1/shahs3/reference/ref-sarcoma/GRCh38/v45/GRCh38.primary_assembly.genome.fa
-sub_hg38=$HOME/test-datasets/reference/GRCh38_${chr}_${coords}.fa
-samtools faidx ${hg38} ${region} | sed 's/>chr9:28000000-29000000/>chr9/' > ${sub_hg38}
+sub_hg38=$HOME/test-datasets/reference/GRCh38_${chr}.fa
+samtools faidx ${hg38} ${chr} > ${sub_hg38}
 samtools faidx ${sub_hg38} --fai-idx ${sub_hg38}.fai # Create index
