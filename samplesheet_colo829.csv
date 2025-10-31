@@ -1,3 +1,3 @@
 sample,condition,bam,bai
-COLO829,tumor,https://raw.githubusercontent.com/apsteinberg/test-datasets/wakcna/bams/PAU59949.d052sup4305mCG_5hmCGvHg38.chr22.bam,https://raw.githubusercontent.com/apsteinberg/test-datasets/wakcna/bams/PAU59949.d052sup4305mCG_5hmCGvHg38.chr22.bam.bai
-COLO829,normal,https://raw.githubusercontent.com/apsteinberg/test-datasets/wakcna/bams/PAU61427.d052sup4305mCG_5hmCGvHg38.chr22.bam,https://raw.githubusercontent.com/apsteinberg/test-datasets/wakcna/bams/PAU61427.d052sup4305mCG_5hmCGvHg38.chr22.bam.bai
+COLO829,tumor,https://raw.githubusercontent.com/apsteinberg/test-datasets/nanogenome/bams/PAU59949.d052sup4305mCG_5hmCGvHg38.chr22.bam,https://raw.githubusercontent.com/apsteinberg/test-datasets/nanogenome/bams/PAU59949.d052sup4305mCG_5hmCGvHg38.chr22.bam.bai
+COLO829,normal,https://raw.githubusercontent.com/apsteinberg/test-datasets/nanogenome/bams/PAU61427.d052sup4305mCG_5hmCGvHg38.chr22.bam,https://raw.githubusercontent.com/apsteinberg/test-datasets/nanogenome/bams/PAU61427.d052sup4305mCG_5hmCGvHg38.chr22.bam.bai
