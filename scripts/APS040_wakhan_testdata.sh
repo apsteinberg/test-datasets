@@ -25,12 +25,13 @@ norm_sub_bam=$HOME/test-datasets/bams/PAU61427.d052sup4305mCG_5hmCGvHg38.${chr}.
 samtools view -b ${norm_bam} ${region} > ${norm_sub_bam}
 samtools index -b ${norm_sub_bam} -o ${norm_sub_bam}.bai
 # subsample reference genome and index to match
-# Extract just chr1 from reference
+# Extract just chr1 and chr22 from reference (chr1 is for savana which needs for het SNP calling)
 hg38=/data1/shahs3/reference/ref-sarcoma/GRCh38/v45/GRCh38.primary_assembly.genome.fa
-sub_hg38=$HOME/test-datasets/reference/GRCh38_${chr}.fa
 hg38_roi=$HOME/test-datasets/reference/GRCh38_${chr}_${coords}.fa
-## full chromosome reference
-samtools faidx ${hg38} ${chr} > ${sub_hg38}
+sub_hg38=$HOME/test-datasets/reference/GRCh38_chr1_10kb_chr22.fa
+
+# Extract partial chr1 and full chr22
+samtools faidx ${hg38} chr1:1-10000 chr22 | sed "s/>chr1:1-10000/>chr1/" > ${sub_hg38}
 samtools faidx ${sub_hg38} --fai-idx ${sub_hg38}.fai # Create index
 # Extract the region and rename the header
 samtools faidx ${hg38} ${region} | sed "s/^>${region}/>${chr}/" > ${hg38_roi}
