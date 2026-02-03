@@ -1,5 +1,5 @@
-sample,sequence_type,filetype,filepath
-A549_rep1,long_read,bam,https://raw.githubusercontent.com/apsteinberg/test-datasets/proteomegenerator3/bam/SGNex_A549_directRNA_replicate5_run1_chr9_1_1000000.bam
-A549_rep1,long_read,rc_file,https://raw.githubusercontent.com/apsteinberg/test-datasets/proteomegenerator3/rcFiles/A549_rep1.rds
-A549_rep2,long_read,bam,https://raw.githubusercontent.com/apsteinberg/test-datasets/proteomegenerator3/bam/SGNex_A549_directRNA_replicate5_run1_chr9_1_1000000.bam
-A549_rep2,long_read,rc_file,https://raw.githubusercontent.com/apsteinberg/test-datasets/proteomegenerator3/rcFiles/A549_rep2.rds
+subject_id,sample_id,sequence_type,filetype,filepath
+A549,A549_rep1,long_read,bam,https://raw.githubusercontent.com/apsteinberg/test-datasets/proteomegenerator3/bam/SGNex_A549_directRNA_replicate5_run1_chr9_1_1000000.bam
+A549,A549_rep1,long_read,rc_file,https://raw.githubusercontent.com/apsteinberg/test-datasets/proteomegenerator3/rcFiles/A549_rep1.rds
+A549,A549_rep2,long_read,bam,https://raw.githubusercontent.com/apsteinberg/test-datasets/proteomegenerator3/bam/SGNex_A549_directRNA_replicate5_run1_chr9_1_1000000.bam
+A549,A549_rep2,long_read,rc_file,https://raw.githubusercontent.com/apsteinberg/test-datasets/proteomegenerator3/rcFiles/A549_rep2.rds
