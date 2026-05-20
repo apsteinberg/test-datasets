@@ -1,0 +1,2 @@
+SV_ID	Chr_1	Pos_1	Dir_1	Chr_2	Pos_2	Dir_2	Inserted_Seq	Checked_Read_Num_Tumor	Supporting_Read_Num_Tumor	Checked_Read_Num_Control	Supporting_Read_Num_Control
+i_1	chr22	20000000	+	chr22	20000001	-	ATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCG	50	10	50	0

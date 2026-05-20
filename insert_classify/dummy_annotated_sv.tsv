@@ -1,0 +1,3 @@
+minda_ID	Chr_1	Pos_1	Chr_2	Pos_2	SV_Type	SV_LEN	SV_callers	Alt_Seq	gene_name_1	oncokb_gene1	gene_name_2	oncokb_gene2
+MINDA_1	chr22	20000000	chr22	20000001	INS	80	i_1,severus_INS_1	<INS>	GENE1	No	GENE1	No
+MINDA_2	chr22	25000000	chr22	25000001	INS	150	severus_INS_2	<INS>	GENE2	No	GENE2	No

@@ -1,0 +1,6 @@
+##description: evidence-based annotation of the human genome (GRCh38), version 45 (Ensembl 111) - dummy for stub testing
+##provider: GENCODE
+##format: gtf
+##date: 2024-01-01
+chr22	HAVANA	gene	20000000	20010000	.	+	.	gene_id "ENSG00000100000.1"; gene_type "protein_coding"; gene_name "DUMMY1";
+chr22	HAVANA	transcript	20000000	20010000	.	+	.	gene_id "ENSG00000100000.1"; transcript_id "ENST00000200000.1"; gene_type "protein_coding"; gene_name "DUMMY1";
